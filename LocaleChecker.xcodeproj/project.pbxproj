@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C88B2EAD25AF55ED00F23C81 /* LocaleCheckerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B2EAC25AF55ED00F23C81 /* LocaleCheckerApp.swift */; };
+		C88B2EAF25AF55ED00F23C81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B2EAE25AF55ED00F23C81 /* ContentView.swift */; };
+		C88B2EB125AF55EF00F23C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88B2EB025AF55EF00F23C81 /* Assets.xcassets */; };
+		C88B2EB425AF55EF00F23C81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88B2EB325AF55EF00F23C81 /* Preview Assets.xcassets */; };
+		C88B2EBF25AF55EF00F23C81 /* LocaleCheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B2EBE25AF55EF00F23C81 /* LocaleCheckerTests.swift */; };
+		C88B2ECA25AF55EF00F23C81 /* LocaleCheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88B2EC925AF55EF00F23C81 /* LocaleCheckerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C88B2EBB25AF55EF00F23C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88B2EA125AF55ED00F23C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88B2EA825AF55ED00F23C81;
+			remoteInfo = LocaleChecker;
+		};
+		C88B2EC625AF55EF00F23C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88B2EA125AF55ED00F23C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88B2EA825AF55ED00F23C81;
+			remoteInfo = LocaleChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C88B2EA925AF55ED00F23C81 /* LocaleChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocaleChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88B2EAC25AF55ED00F23C81 /* LocaleCheckerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleCheckerApp.swift; sourceTree = "<group>"; };
+		C88B2EAE25AF55ED00F23C81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C88B2EB025AF55EF00F23C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C88B2EB325AF55EF00F23C81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C88B2EB525AF55EF00F23C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88B2EBA25AF55EF00F23C81 /* LocaleCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocaleCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88B2EBE25AF55EF00F23C81 /* LocaleCheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleCheckerTests.swift; sourceTree = "<group>"; };
+		C88B2EC025AF55EF00F23C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88B2EC525AF55EF00F23C81 /* LocaleCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocaleCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88B2EC925AF55EF00F23C81 /* LocaleCheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleCheckerUITests.swift; sourceTree = "<group>"; };
+		C88B2ECB25AF55EF00F23C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C88B2EA625AF55ED00F23C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88B2EB725AF55EF00F23C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88B2EC225AF55EF00F23C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C88B2EA025AF55ED00F23C81 = {
+			isa = PBXGroup;
+			children = (
+				C88B2EAB25AF55ED00F23C81 /* LocaleChecker */,
+				C88B2EBD25AF55EF00F23C81 /* LocaleCheckerTests */,
+				C88B2EC825AF55EF00F23C81 /* LocaleCheckerUITests */,
+				C88B2EAA25AF55ED00F23C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C88B2EAA25AF55ED00F23C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C88B2EA925AF55ED00F23C81 /* LocaleChecker.app */,
+				C88B2EBA25AF55EF00F23C81 /* LocaleCheckerTests.xctest */,
+				C88B2EC525AF55EF00F23C81 /* LocaleCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C88B2EAB25AF55ED00F23C81 /* LocaleChecker */ = {
+			isa = PBXGroup;
+			children = (
+				C88B2EAC25AF55ED00F23C81 /* LocaleCheckerApp.swift */,
+				C88B2EAE25AF55ED00F23C81 /* ContentView.swift */,
+				C88B2EB025AF55EF00F23C81 /* Assets.xcassets */,
+				C88B2EB525AF55EF00F23C81 /* Info.plist */,
+				C88B2EB225AF55EF00F23C81 /* Preview Content */,
+			);
+			path = LocaleChecker;
+			sourceTree = "<group>";
+		};
+		C88B2EB225AF55EF00F23C81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C88B2EB325AF55EF00F23C81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C88B2EBD25AF55EF00F23C81 /* LocaleCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C88B2EBE25AF55EF00F23C81 /* LocaleCheckerTests.swift */,
+				C88B2EC025AF55EF00F23C81 /* Info.plist */,
+			);
+			path = LocaleCheckerTests;
+			sourceTree = "<group>";
+		};
+		C88B2EC825AF55EF00F23C81 /* LocaleCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C88B2EC925AF55EF00F23C81 /* LocaleCheckerUITests.swift */,
+				C88B2ECB25AF55EF00F23C81 /* Info.plist */,
+			);
+			path = LocaleCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C88B2EA825AF55ED00F23C81 /* LocaleChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88B2ECE25AF55EF00F23C81 /* Build configuration list for PBXNativeTarget "LocaleChecker" */;
+			buildPhases = (
+				C88B2EA525AF55ED00F23C81 /* Sources */,
+				C88B2EA625AF55ED00F23C81 /* Frameworks */,
+				C88B2EA725AF55ED00F23C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocaleChecker;
+			productName = LocaleChecker;
+			productReference = C88B2EA925AF55ED00F23C81 /* LocaleChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C88B2EB925AF55EF00F23C81 /* LocaleCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88B2ED125AF55EF00F23C81 /* Build configuration list for PBXNativeTarget "LocaleCheckerTests" */;
+			buildPhases = (
+				C88B2EB625AF55EF00F23C81 /* Sources */,
+				C88B2EB725AF55EF00F23C81 /* Frameworks */,
+				C88B2EB825AF55EF00F23C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88B2EBC25AF55EF00F23C81 /* PBXTargetDependency */,
+			);
+			name = LocaleCheckerTests;
+			productName = LocaleCheckerTests;
+			productReference = C88B2EBA25AF55EF00F23C81 /* LocaleCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C88B2EC425AF55EF00F23C81 /* LocaleCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88B2ED425AF55EF00F23C81 /* Build configuration list for PBXNativeTarget "LocaleCheckerUITests" */;
+			buildPhases = (
+				C88B2EC125AF55EF00F23C81 /* Sources */,
+				C88B2EC225AF55EF00F23C81 /* Frameworks */,
+				C88B2EC325AF55EF00F23C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88B2EC725AF55EF00F23C81 /* PBXTargetDependency */,
+			);
+			name = LocaleCheckerUITests;
+			productName = LocaleCheckerUITests;
+			productReference = C88B2EC525AF55EF00F23C81 /* LocaleCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C88B2EA125AF55ED00F23C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C88B2EA825AF55ED00F23C81 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C88B2EB925AF55EF00F23C81 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C88B2EA825AF55ED00F23C81;
+					};
+					C88B2EC425AF55EF00F23C81 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C88B2EA825AF55ED00F23C81;
+					};
+				};
+			};
+			buildConfigurationList = C88B2EA425AF55ED00F23C81 /* Build configuration list for PBXProject "LocaleChecker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C88B2EA025AF55ED00F23C81;
+			productRefGroup = C88B2EAA25AF55ED00F23C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C88B2EA825AF55ED00F23C81 /* LocaleChecker */,
+				C88B2EB925AF55EF00F23C81 /* LocaleCheckerTests */,
+				C88B2EC425AF55EF00F23C81 /* LocaleCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C88B2EA725AF55ED00F23C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88B2EB425AF55EF00F23C81 /* Preview Assets.xcassets in Resources */,
+				C88B2EB125AF55EF00F23C81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88B2EB825AF55EF00F23C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88B2EC325AF55EF00F23C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C88B2EA525AF55ED00F23C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88B2EAF25AF55ED00F23C81 /* ContentView.swift in Sources */,
+				C88B2EAD25AF55ED00F23C81 /* LocaleCheckerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88B2EB625AF55EF00F23C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88B2EBF25AF55EF00F23C81 /* LocaleCheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88B2EC125AF55EF00F23C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88B2ECA25AF55EF00F23C81 /* LocaleCheckerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C88B2EBC25AF55EF00F23C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88B2EA825AF55ED00F23C81 /* LocaleChecker */;
+			targetProxy = C88B2EBB25AF55EF00F23C81 /* PBXContainerItemProxy */;
+		};
+		C88B2EC725AF55EF00F23C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88B2EA825AF55ED00F23C81 /* LocaleChecker */;
+			targetProxy = C88B2EC625AF55EF00F23C81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C88B2ECC25AF55EF00F23C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C88B2ECD25AF55EF00F23C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C88B2ECF25AF55EF00F23C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LocaleChecker/Preview Content\"";
+				DEVELOPMENT_TEAM = W92WCL9AC3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LocaleChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enriquegh.LocaleChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C88B2ED025AF55EF00F23C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LocaleChecker/Preview Content\"";
+				DEVELOPMENT_TEAM = W92WCL9AC3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LocaleChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enriquegh.LocaleChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C88B2ED225AF55EF00F23C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W92WCL9AC3;
+				INFOPLIST_FILE = LocaleCheckerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enriquegh.LocaleCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocaleChecker.app/LocaleChecker";
+			};
+			name = Debug;
+		};
+		C88B2ED325AF55EF00F23C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W92WCL9AC3;
+				INFOPLIST_FILE = LocaleCheckerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enriquegh.LocaleCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocaleChecker.app/LocaleChecker";
+			};
+			name = Release;
+		};
+		C88B2ED525AF55EF00F23C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W92WCL9AC3;
+				INFOPLIST_FILE = LocaleCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enriquegh.LocaleCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocaleChecker;
+			};
+			name = Debug;
+		};
+		C88B2ED625AF55EF00F23C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W92WCL9AC3;
+				INFOPLIST_FILE = LocaleCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enriquegh.LocaleCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocaleChecker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C88B2EA425AF55ED00F23C81 /* Build configuration list for PBXProject "LocaleChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88B2ECC25AF55EF00F23C81 /* Debug */,
+				C88B2ECD25AF55EF00F23C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88B2ECE25AF55EF00F23C81 /* Build configuration list for PBXNativeTarget "LocaleChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88B2ECF25AF55EF00F23C81 /* Debug */,
+				C88B2ED025AF55EF00F23C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88B2ED125AF55EF00F23C81 /* Build configuration list for PBXNativeTarget "LocaleCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88B2ED225AF55EF00F23C81 /* Debug */,
+				C88B2ED325AF55EF00F23C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88B2ED425AF55EF00F23C81 /* Build configuration list for PBXNativeTarget "LocaleCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88B2ED525AF55EF00F23C81 /* Debug */,
+				C88B2ED625AF55EF00F23C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C88B2EA125AF55ED00F23C81 /* Project object */;
+}
