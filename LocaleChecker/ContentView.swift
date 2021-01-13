@@ -17,20 +17,12 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Group {
-                Text("Language Code:")
-                Text(languageCode)
-                Text("Region Code:")
-                Text(regionCode)
-                Text("Calendar:")
-                Text(calendarType.description)
-                Text("Currency Code:")
-                Text(currencyCode)
-                Text("Uses metric?:")
-                Text(usesMetricSystem ? "Yes" : "No")
-            }
-            Text("Preferred Languages:")
-            Text(languages.joined(separator: "\n"))
+            LanguagePropertyView(title: "Language Code:", propertyValue: languageCode)
+            LanguagePropertyView(title: "Region Code:", propertyValue: regionCode)
+            LanguagePropertyView(title: "Calendar:", propertyValue: calendarType.description)
+            LanguagePropertyView(title: "Currency Code:", propertyValue: currencyCode)
+            LanguagePropertyView(title: "Uses metric?:", propertyValue: usesMetricSystem ? "Yes" : "No")
+            LanguagePropertyView(title: "Preferred Languages:", propertyValue: languages.joined(separator: "\n"))
         }
 
     }
@@ -39,5 +31,15 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct LanguagePropertyView: View {
+    var title: String
+    var propertyValue: String
+    var body: some View {
+        Text(title)
+            .font(.title2)
+        Text(propertyValue).padding(.bottom)
     }
 }
